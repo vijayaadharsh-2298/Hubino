@@ -1,0 +1,27 @@
+.chatForm{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.chatForm .inputbox{
+    width: 500px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+.chatForm .button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.chatForm .button:hover{
+    background: transparent;
+    color: green;
+    border: 1px solid green;
+}
